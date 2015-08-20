@@ -1,4 +1,8 @@
 source 'https://rubygems.org'
 
-gem 'spec'
+group:test do
+  gem 'rspec'
+end
+
 gem 'byebug'
+gem 'rubocop', require: false
